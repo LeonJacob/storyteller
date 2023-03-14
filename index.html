@@ -6,13 +6,29 @@
     <title>Storyteller</title>
   </head>
   <div class="wrapper">
-    <img src="teller.jpg" class="img-responsive" alt="Responsive image">
+    <img src="teller.jpg" class="img-fluid" alt="Responsive image">
  </div>
  
   <body>
-    <div class="ratio ratio-16x9">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/f0ScteHnlGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>
+<!-- 21:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-21by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f0ScteHnlGA" allowfullscreen></iframe>
+  </div>
+  
+  <!-- 16:9 aspect ratio -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f0ScteHnlGA" allowfullscreen></iframe>
+  </div>
+  
+  <!-- 4:3 aspect ratio -->
+  <div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f0ScteHnlGA" allowfullscreen></iframe>
+  </div>
+  
+  <!-- 1:1 aspect ratio -->
+  <div class="embed-responsive embed-responsive-1by1">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/f0ScteHnlGA" allowfullscreen></iframe>
+  </div>
   </body>
 </html>
 
